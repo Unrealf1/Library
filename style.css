@@ -1,0 +1,57 @@
+.table_add
+{
+	width:25px;
+	height: 10px;
+	border: 0;
+}
+.table_polk
+{
+	
+	text-align: center;
+	transition: 0.3s, 0.4s;
+	-webkit-transition: 0.3s, 0.4s;
+	-o-transition: 0.3s, 0.4s;
+	-ms-transition: 0.3s, 0.4s;
+	-moz-transition: 0.3s, 0.4s;
+}
+.pict_polk
+{
+	position: relative;
+	z-index: 3;
+}
+.pict_polk:hover
+{
+	 opacity: 0.2;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+	z-index: 2;
+	font-weight: 700;
+}
+.container {
+    position: relative;
+}
+.pict_size_std
+{
+	width: 270px;
+	height: 100px;
+}
+.pict_size_half
+{
+	width: 135px;
+	height: 100px;
+}
+.pict_size_small
+{
+	width: 67.5px;
+	height: 67.5px;
+}
+.pict_size_big
+{
+	width: 270px;
+	height: 133.3px;
+}
